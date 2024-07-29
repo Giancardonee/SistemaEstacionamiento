@@ -1,0 +1,50 @@
+CREATE DATABASE sist_estacionamiento;
+
+CREATE TABLE tb_usuario (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombreUsuario VARCHAR(25),
+    nombre VARCHAR(20),
+    apellido VARCHAR(20),
+    dni VARCHAR(20),
+    tipoUsuario VARCHAR(20),
+    telefono VARCHAR(20),
+    contrasena VARCHAR(300), 
+    ultimoInicio TIMESTAMP
+);
+
+CREATE TABLE tb_cliente (  
+    dni VARCHAR(25) PRIMARY KEY,
+    nombre VARCHAR(25),
+    apellido VARCHAR(25),
+    telefono VARCHAR(20)
+);
+
+CREATE TABLE tb_vehiculo (
+    dniDueno VARCHAR(25),
+    patente VARCHAR(20) PRIMARY KEY,
+    tipoVehiculo VARCHAR(11),
+    ubicacion VARCHAR(30),
+    FOREIGN KEY (dniDueno) REFERENCES tb_cliente(dni)
+);
+
+CREATE TABLE tb_tarifa (
+    idTarifa INT PRIMARY KEY AUTO_INCREMENT,
+    dniDueno VARCHAR(25),
+    patenteVehiculo VARCHAR(20),
+    horaIngreso TIMESTAMP,
+    horaSalida TIMESTAMP, 
+    tiempoTranscurrido INT,   
+    totalPagar DOUBLE,
+    FOREIGN KEY (dniDueno) REFERENCES tb_cliente(dni),
+    FOREIGN KEY (patenteVehiculo) REFERENCES tb_vehiculo(patente)
+);
+
+CREATE TABLE tb_precioHora(
+    tipoVehiculo VARCHAR (20),
+    precioHora DOUBLE
+);
+--------------------------------------------
+-- insert para los precios ---
+INSERT INTO tb_preciohora (tipoVehiculo,precioHora) VALUES ("Auto",400);
+INSERT INTO tb_preciohora (tipoVehiculo,precioHora) VALUES ("Moto",200);
+INSERT INTO tb_preciohora (tipoVehiculo,precioHora) VALUES ("Camioneta",700);
