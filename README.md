@@ -36,6 +36,11 @@ Base de datos SQL
 ![pantalla1  Login ](https://github.com/Giancardonee/BETA-Sistema-Estacionamiento-JAVA/assets/114377978/73b07d86-449b-4ca3-8288-252c0636dc41)  
 ## Menu Principal  
 ![image](https://github.com/user-attachments/assets/c756de4b-068f-4446-a22e-3e0cf5c9fc19)
+## Listar Vehiculos
+![image](https://github.com/user-attachments/assets/2ed16a85-f344-4e8a-bd95-050b0fa47f3a)
+## Ingresar Vehiculo
+![image](https://github.com/user-attachments/assets/d1378a25-cc55-4aab-9f98-d102360bb908)
+
 ## Gestion de Tarifas
 
 
