@@ -33,7 +33,7 @@ Base de datos SQL
 
 ## Les presento a Estacionamiento Gianca
 ## Inicio de Sesion   
-![pantalla1  Login ](https://github.com/Giancardonee/BETA-Sistema-Estacionamiento-JAVA/assets/114377978/73b07d86-449b-4ca3-8288-252c0636dc41)  
+![image](https://github.com/user-attachments/assets/e7f653a3-f3aa-4cb0-a9ac-635771798c85)
 ## Menu Principal  
 ![image](https://github.com/user-attachments/assets/c756de4b-068f-4446-a22e-3e0cf5c9fc19)
 ## Listar Vehiculos
@@ -46,7 +46,6 @@ Base de datos SQL
 ![image](https://github.com/user-attachments/assets/a3089808-a736-4a94-9b88-b9dfded12d47)
 ## Gestion de Clientes
 ![image](https://github.com/user-attachments/assets/aa00c300-528d-444f-ba90-bcc92d5194e3)
-
 ## Ejemplo de ticket: 
 ![image](https://github.com/user-attachments/assets/fd36a838-b3ff-4222-8169-8df483384a31)
 
