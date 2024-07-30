@@ -1,20 +1,19 @@
-## Sistema de Estacionamiento. (en desarrollo)
+## Sistema de Estacionamiento.
 
 Bienvenido/a a mi primer proyecto, un sistema de estacionamiento desarrollado en Java.
 
 **💻💥 Este proyecto permite:** 
   
 Administrar clientes y sus vehículos: Registrar, actualizar, eliminar y visualizar información de clientes y sus vehículos.  
-Gestionar usuarios con diferentes roles: Administrador y Empleado, cada uno con sus permisos específicos.  
+Gestionar usuarios con diferentes roles: Administrador y Empleado, cada uno con sus permisos específicos y acceso a diferentes partes del sistema.  
 Controlar el ingreso y salida de vehículos: Registrar la entrada y salida de vehículos, incluyendo fecha, hora y tarifa.   
+Generar tickets al momento de retirar un vehiculo del establecimiento. 
 
-**🔨Próximamente:**  
-Implementación de la generación automática de tickets.  
+**🔨Posibles mejoras a futuro:**  
 Mejoras en cuanto al manejo de posibles errores.  
 Adaptabilidad para distintas resoluciones de pantallas. (Actualmente disponible solo en 1200 x 800)  
-Adaptabilidad para fecha,hora y localidad de donde se inicie. 
 
-## Que estoy usando para desarrollar este proyecto? 
+## Que use para desarrollar este proyecto? 
 
 Java  
 POO (Programación Orientada a Objetos)  
@@ -28,7 +27,7 @@ Base de datos SQL
 ✔️Gestión de clientes y vehículos  
 ✔️Registro de entrada y salida de vehículos  
 ✔️Cálculo de tarifas  
-🔨Generación de tickets (próximamente)  
+✔️Generación de tickets (próximamente)  
 ✔️Listado de información relevante  
 
 ## Les presento a Estacionamiento Gianca
@@ -46,8 +45,8 @@ Base de datos SQL
 🟣 Ejecutar el Script -> **ScriptBD**.En mi caso lo hago en PhpMyAdmin para administrar una base de datos MySQL.  
 Este Script se encarga de crear la base de datos. Generando las entidades y sus relaciones. 
 
-🟣 **IMPORTANTE:** Añadir la libreria mysql-connector-j-8.2.0. Ya que sino no se conectaria a la BD.  
-🟣 Iniciar sesion con las credenciales de:  
+🟣 **IMPORTANTE:** Si no se agregaron las librerias automaticamente, se deberian agregar las librerias de la carpeta \lib
+🟣 Si es la primera vez ejecutando el sistema, Iniciar sesion con las credenciales de:  
     ✅Usuario: adm  
     ✅Contraseña: 1234  
 **(Este usuario sirve para acceder la primera vez al sistema, se deben crear otros usuarios en el apartado de Configuracion)**
