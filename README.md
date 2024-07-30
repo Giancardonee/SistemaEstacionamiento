@@ -28,7 +28,7 @@ Base de datos SQL
 ✔️Gestión de clientes y vehículos  
 ✔️Registro de entrada y salida de vehículos  
 ✔️Cálculo de tarifas  
-✔️Generación de tickets
+✔️Generación de tickets  
 ✔️Listado de información relevante  
 
 ## Les presento a Estacionamiento Gianca
