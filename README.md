@@ -56,7 +56,7 @@ Base de datos SQL
 🟣 Ejecutar el Script -> **ScriptBD**.En mi caso lo hago en PhpMyAdmin para administrar una base de datos MySQL.  
 Este Script se encarga de crear la base de datos. Generando las entidades y sus relaciones. 
 
-🟣 **IMPORTANTE:** Si no se agregaron las librerias automaticamente, se deberian agregar las librerias de la carpeta \lib
+🟣 **IMPORTANTE:** Si no se agregaron las librerias automaticamente, se deberian agregar las librerias de la carpeta \lib  
 🟣 Si es la primera vez ejecutando el sistema, Iniciar sesion con las credenciales de:  
     ✅Usuario: adm  
     ✅Contraseña: 1234  
