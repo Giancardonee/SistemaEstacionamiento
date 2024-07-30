@@ -31,7 +31,7 @@ Base de datos SQL
 ✔️Generación de tickets  
 ✔️Listado de información relevante  
 
-[Algunas de las vistas/pantallas que ofrece el sistema](https://github.com/Giancardonee/SistemaEstacionamiento/tree/main/Vistas%20del%20sistema)
+[MIRA LA INTERFAZ DEL SISTEMA ACA](https://github.com/Giancardonee/SistemaEstacionamiento/tree/main/Vistas%20del%20sistema)
 ## Como correr el proyecto? 
 🟣 Ejecutar el Script -> **ScriptBD**.En mi caso lo hago en PhpMyAdmin para administrar una base de datos MySQL.  
 Este Script se encarga de crear la base de datos. Generando las entidades y sus relaciones. 
