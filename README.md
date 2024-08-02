@@ -23,6 +23,7 @@ Base de datos SQL
 
 
 **Funcionalidades:**  
+✔️Inicio de Sesion 
 ✔️Roles (Administrador y Empleado)  
 ✔️Gestion de usuarios   
 ✔️Gestión de clientes y vehículos  
